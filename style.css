@@ -6,7 +6,6 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  text-transform: capitalize;
   transition: 0.2s linear;
 }
 
@@ -36,11 +35,7 @@ body {
   color: #d3ad7f;
 }
 
-/* section {
-  padding: 2rem 9%;
-} */
-
-/* header */
+/* header starts*/
 
 .content {
   padding-left: 9%;
@@ -89,9 +84,9 @@ body {
   color: #fff;
 }
 
-/* ends */
+/* eader ends */
 
-/* home */
+/* home starts */
 
 .home {
   display: flex;
@@ -149,9 +144,9 @@ body {
   width: 100%;
 }
 
-/* end */
+/* home ends */
 
-/* about */
+/* about starts */
 .about {
   background-color: #2a201c;
   padding: 2rem;
@@ -166,14 +161,15 @@ body {
 
 .about .image-about img {
   width: 600px;
-  /* height: 200px; */
   padding: 12 23px;
   opacity: 65%;
   border-radius: 0.6rem;
 }
+
 .about .about-content {
   color: white;
 }
+
 .about .about-content h1 {
   font-size: 2.5rem;
 }
@@ -183,14 +179,13 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /* border: 2px solid black; */
 }
+
 .about-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  /* align-items: center; */
   padding: 0 2rem;
   text-align: center;
 }
@@ -202,6 +197,7 @@ body {
   background-color: rgb(18, 148, 70);
   cursor: pointer;
 }
+
 .about-items:hover {
   background-color: rgb(12, 105, 49);
 }
@@ -214,9 +210,9 @@ body {
   font-size: 1.4rem;
 }
 
-/* end */
+/* about ends */
 
-/* menu */
+/* menu starts */
 #menu {
   background-color: #2a201c;
 }
@@ -226,6 +222,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .menu-items {
   display: flex;
   flex-direction: column;
@@ -256,9 +253,10 @@ body {
   color: white;
   text-align: center;
 }
-/* end */
 
-/* locations */
+/* menu end */
+
+/* locations starts */
 
 #locations {
   background-color: #2a201c;
@@ -269,11 +267,6 @@ body {
   text-align: center;
   font-size: 1.8rem;
 }
-
-/* .location-container {
-  display: flex;
-  flex-wrap: wrap;
-} */
 
 .cities {
   display: flex;
@@ -290,7 +283,6 @@ body {
   margin: 2rem;
   border-radius: 2rem;
   cursor: pointer;
-  /* padding: 1rem; */
 }
 
 .city-items:hover {
@@ -299,26 +291,32 @@ body {
 
 .city-items p {
   margin: 3rem;
+  text-align: center;
 }
 
 .red {
   background-color: rgb(243, 49, 49);
 }
+
 .blue {
   background-color: rgb(69, 136, 236);
 }
+
 .yellow {
   background-color: rgb(114, 114, 14);
 }
+
 .purple {
   background-color: rgb(161, 49, 230);
 }
+
 .green {
   background-color: rgb(32, 191, 32);
 }
-/* end */
 
-/* contact */
+/* locations end */
+
+/* contact starts */
 
 .contact {
   background-color: #2a201c;
@@ -373,9 +371,9 @@ button:hover {
   background-color: #513e35;
 }
 
-/* end */
+/*  contact end */
 
-/* footer */
+/* footer starts */
 footer {
   background-color: #231515;
   color: #fff;
@@ -416,7 +414,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
-/* end */
+/* footer ends */
+
+/* Responsive */
 
 @media (max-width: 991px) {
   html {
@@ -490,7 +490,6 @@ a:hover {
     border-radius: 2rem;
   }
 
-  /* about */
   .about-container {
     margin: 0;
   }
@@ -538,5 +537,11 @@ a:hover {
 
   .about-items p {
     font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .city-items p {
+    margin: 0.5rem;
   }
 }
