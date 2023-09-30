@@ -36,7 +36,6 @@ body {
 }
 
 /* header starts*/
-
 .content {
   padding-left: 9%;
 }
@@ -83,11 +82,9 @@ body {
   font-size: 2.5rem;
   color: #fff;
 }
-
-/* eader ends */
+/* header ends */
 
 /* home starts */
-
 .home {
   display: flex;
   flex-wrap: wrap;
@@ -143,7 +140,6 @@ body {
 .home .image img {
   width: 100%;
 }
-
 /* home ends */
 
 /* about starts */
@@ -209,7 +205,6 @@ body {
 .about-items p {
   font-size: 1.4rem;
 }
-
 /* about ends */
 
 /* menu starts */
@@ -253,11 +248,9 @@ body {
   color: white;
   text-align: center;
 }
-
-/* menu end */
+/* menu ends */
 
 /* locations starts */
-
 #locations {
   background-color: #2a201c;
 }
@@ -313,11 +306,9 @@ body {
 .green {
   background-color: rgb(32, 191, 32);
 }
-
 /* locations end */
 
 /* contact starts */
-
 .contact {
   background-color: #2a201c;
 }
@@ -370,7 +361,6 @@ button {
 button:hover {
   background-color: #513e35;
 }
-
 /*  contact end */
 
 /* footer starts */
@@ -422,11 +412,9 @@ a:hover {
 footer .quick-links ul li a:hover {
   color: #d3ad7f;
 }
-
 /* footer ends */
 
-/* Responsive */
-
+/* Responsiveness */
 @media (max-width: 991px) {
   html {
     font-size: 55%;
